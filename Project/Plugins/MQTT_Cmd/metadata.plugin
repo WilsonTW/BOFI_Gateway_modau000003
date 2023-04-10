@@ -1,0 +1,5 @@
+{
+    "name" : "mqtt_cmd",
+    "priority" : 0,
+    "program" : "main.lua"
+}

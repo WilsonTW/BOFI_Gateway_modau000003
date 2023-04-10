@@ -1,0 +1,1001 @@
+{
+  "Parameters": {
+    "AI": {
+      "$node_type$": "object",
+      "$properties$": {
+        "memo": "",
+        "name": "AI"
+      },
+      "AI_Values": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AI All Value",
+          "type": "UInt16",
+          "rank": [
+            64
+          ],
+          "source": 1,
+          "address": {
+            "address": "300001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": false,
+            "variable_id": "",
+            "index": 0,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "AI0": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AI0",
+          "type": "UInt16",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "AI.AI_Values",
+            "index": 0,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "AI1": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AI1",
+          "type": "UInt16",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "AI.AI_Values",
+            "index": 1,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "AI2": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AI2",
+          "type": "UInt16",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "AI.AI_Values",
+            "index": 2,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "AI3": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AI3",
+          "type": "UInt16",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "AI.AI_Values",
+            "index": 3,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "AI4": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AI4",
+          "type": "UInt16",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "AI.AI_Values",
+            "index": 4,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "AI5": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AI5",
+          "type": "UInt16",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "AI.AI_Values",
+            "index": 5,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "AI6": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AI6",
+          "type": "UInt16",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "AI.AI_Values",
+            "index": 6,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "AI7": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AI7",
+          "type": "UInt16",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "AI.AI_Values",
+            "index": 7,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      }
+    },
+    "AO": {
+      "$node_type$": "object",
+      "$properties$": {
+        "memo": "",
+        "name": "AO"
+      },
+      "AO_Values": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AO All Value",
+          "type": "UInt16",
+          "rank": [
+            64
+          ],
+          "source": 1,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": false,
+            "variable_id": "",
+            "index": 0,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "AO0": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AO0",
+          "type": "UInt16",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "AO.AO_Values",
+            "index": 0,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "AO1": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AO1",
+          "type": "UInt16",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "AO.AO_Values",
+            "index": 1,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "AO2": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AO2",
+          "type": "UInt16",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "AO.AO_Values",
+            "index": 2,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "AO3": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AO3",
+          "type": "UInt16",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "AO.AO_Values",
+            "index": 3,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "AO4": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AO4",
+          "type": "UInt16",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "AO.AO_Values",
+            "index": 4,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "AO5": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AO5",
+          "type": "UInt16",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "AO.AO_Values",
+            "index": 5,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "AO6": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AO6",
+          "type": "UInt16",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "AO.AO_Values",
+            "index": 6,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "AO7": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "AO7",
+          "type": "UInt16",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "AO.AO_Values",
+            "index": 7,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      }
+    },
+    "DI": {
+      "$node_type$": "object",
+      "$properties$": {
+        "memo": "",
+        "name": "DI"
+      },
+      "DI_Values": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DI All Value",
+          "type": "Boolean",
+          "rank": [
+            64
+          ],
+          "source": 1,
+          "address": {
+            "address": "100001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": false,
+            "variable_id": "",
+            "index": 0,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "DI0": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DI0",
+          "type": "Boolean",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "DI.DI_Values",
+            "index": 0,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "DI1": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DI1",
+          "type": "Boolean",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "DI.DI_Values",
+            "index": 1,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "DI2": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DI2",
+          "type": "Boolean",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "DI.DI_Values",
+            "index": 2,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "DI3": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DI3",
+          "type": "Boolean",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "DI.DI_Values",
+            "index": 3,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "DI4": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DI4",
+          "type": "Boolean",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "DI.DI_Values",
+            "index": 4,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "DI5": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DI5",
+          "type": "Boolean",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "DI.DI_Values",
+            "index": 5,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "DI6": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DI6",
+          "type": "Boolean",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "DI.DI_Values",
+            "index": 6,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "DI7": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DI7",
+          "type": "Boolean",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "DI.DI_Values",
+            "index": 7,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      }
+    },
+    "DO": {
+      "$node_type$": "object",
+      "$properties$": {
+        "memo": "",
+        "name": "DO"
+      },
+      "DO_Values": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DO All Value",
+          "type": "Boolean",
+          "rank": [
+            64
+          ],
+          "source": 1,
+          "address": {
+            "address": "000001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": false,
+            "variable_id": "",
+            "index": 0,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "DO0": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DO0",
+          "type": "Boolean",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "DO.DO_Values",
+            "index": 0,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "DO1": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DO1",
+          "type": "Boolean",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "DO.DO_Values",
+            "index": 1,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "DO2": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DO2",
+          "type": "Boolean",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "DO.DO_Values",
+            "index": 2,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "DO3": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DO3",
+          "type": "Boolean",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "DO.DO_Values",
+            "index": 3,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "DO4": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DO4",
+          "type": "Boolean",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "DO.DO_Values",
+            "index": 4,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "DO5": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DO5",
+          "type": "Boolean",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "DO.DO_Values",
+            "index": 5,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "DO6": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DO6",
+          "type": "Boolean",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "DO.DO_Values",
+            "index": 6,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      },
+      "DO7": {
+        "$node_type$": "variable",
+        "$properties$": {
+          "name": "DO7",
+          "type": "Boolean",
+          "rank": [],
+          "source": 2,
+          "address": {
+            "address": "400001"
+          },
+          "properties": {},
+          "memo": "",
+          "linear": {
+            "enable": false,
+            "scale": 1.0,
+            "base": 0
+          },
+          "reference": {
+            "enable": true,
+            "variable_id": "DO.DO_Values",
+            "index": 7,
+            "bit": 0,
+            "length": 1
+          }
+        }
+      }
+    }
+  },
+  "Properties": {
+    "StationNo": 1,
+    "Endian": "big",
+    "CoilMaxNum": 2000,
+    "InputMaxNum": 2000,
+    "HoldingRegMaxNum": 125,
+    "InputRegMaxNum": 125,
+    "Timeout": 1000,
+    "ResponseDelay": 0,
+    "RequestDelay": 0
+  },
+  "Driver": {
+    "drive_name": "device.modbus.master",
+    "filename": "device.modbus.master.drv",
+    "properties": {
+      "protocol": "TCP"
+    }
+  },
+  "Information": {
+    "ID": "Modbus.Tcp.ServerSimulator",
+    "Name": "Modbus TCP Server Simulator",
+    "Model": "Modbus",
+    "Description": "",
+    "ModelVersion": "1.0"
+  }
+}

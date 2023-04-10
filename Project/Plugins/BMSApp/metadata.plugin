@@ -1,0 +1,9 @@
+{
+    "name" : "BMS_App",
+    "priority" : 1,
+    "program" : "main.lua",
+    "task" : {
+        "function" : "on_process",
+        "interval" : 5000
+    }	
+}

@@ -1,0 +1,47 @@
+{
+  "FileVersion": {
+    "Version": "1.0"
+  },
+  "Connectors": {
+    "connect": {
+      "Channel": {
+        "Type": "SerialPort",
+        "SerialPort": {
+          "PortName": "/dev/serial0",
+          "BaudRate": 9600,
+          "DataBits": 8,
+          "Parity": "none",
+          "StopBits": 1,
+          "RTS": false
+        }
+      },
+      "Devices": {
+        "gaiusPCS1": {
+          "Name": "gaiusPCS1",
+          "Profile": "gaiusPcs",
+          "Properties": {
+            "StationNo": 1,
+            "Endian": "big",
+            "CoilMaxNum": 2000,
+            "InputMaxNum": 2000,
+            "HoldingRegMaxNum": 125,
+            "InputRegMaxNum": 125,
+            "Timeout": 1500,
+            "ResponseDelay": 0,
+            "RequestDelay": 0
+          },
+          "Memo": ""
+        }
+      },
+      "Properties": {
+        "UpdatePeriod": 3000
+      },
+      "Name": "gaiusPCS1",
+      "Description": "",
+      "Driver": {
+        "id": "channel.serialport",
+        "driver": "channel.serialport.drv"
+      }
+    }
+  }
+}

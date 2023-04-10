@@ -1,0 +1,43 @@
+{
+  "FileVersion": {
+    "Version": "1.0"
+  },
+  "Connectors": {
+    "connect1": {
+      "Channel": {
+        "Type": "TcpClient",
+        "TcpClient": {
+          "IP": "192.168.50.245",
+          "Port": 502
+        }
+      },
+      "Devices": {
+        "Simulator": {
+          "Name": "Simulator",
+          "Profile": "Modbus.Tcp.ServerSimulator",
+          "Properties": {
+            "StationNo": 1,
+            "Endian": "big",
+            "CoilMaxNum": 2000,
+            "InputMaxNum": 2000,
+            "HoldingRegMaxNum": 125,
+            "InputRegMaxNum": 125,
+            "Timeout": 1000,
+            "ResponseDelay": 0,
+            "RequestDelay": 0
+          },
+          "Memo": ""
+        }
+      },
+      "Properties": {
+        "UpdatePeriod": 1000
+      },
+      "Name": "connect1",
+      "Description": "",
+      "Driver": {
+        "id": "channel.tcp.client",
+        "driver": "channel.tcp.client.drv"
+      }
+    }
+  }
+}

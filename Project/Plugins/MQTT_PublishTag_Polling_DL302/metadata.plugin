@@ -1,0 +1,9 @@
+{
+    "name" : "mqtt_publish_tag_polling_dl302",
+    "priority" : 1,
+    "program" : "main.lua",
+    "task" : {
+        "function" : "on_process",
+        "interval" : 1000
+    }
+}

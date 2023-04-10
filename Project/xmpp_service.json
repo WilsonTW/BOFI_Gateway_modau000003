@@ -1,0 +1,14 @@
+{
+    "host" : "im.apinc.org",
+    "jid" : "wilsontw.test1@im.apinc.org",
+    "password" : "12345678",
+    "options" : {
+        "disable_tls" : false,
+        "mandatory_tls" : false,
+        "trust_tls" : true,
+        "legacy_ssl" : false,
+        "legacy_auth" : false,
+        "tcp_keeplive" : true
+    },
+    "debug" : false
+}
