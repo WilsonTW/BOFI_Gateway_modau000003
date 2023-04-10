@@ -1,0 +1,5 @@
+{
+    "name" : "PCS_App",
+    "priority" : 1,
+    "program" : "main.lua"
+}

@@ -1,0 +1,29 @@
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=US
+
+network={
+        ssid="GAIUS_STAFF_2.4G"
+        psk="gaius53077689"
+        proto=RSN
+        key_mgmt=WPA-PSK
+        pairwise=CCMP
+        id_str="acasa"
+}
+network={
+        ssid="STC Factory"
+        psk="0033180900"
+        proto=RSN
+        key_mgmt=WPA-PSK
+        pairwise=CCMP
+        id_str="acasa"
+}
+network={
+        ssid="GAIUS_Guest"
+        psk="53077689"
+        proto=RSN
+        key_mgmt=WPA-PSK
+        pairwise=CCMP
+        id_str="acasa"
+}
+
