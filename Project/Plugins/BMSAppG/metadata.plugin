@@ -1,9 +1,0 @@
-{
-    "name" : "BMS_AppG",
-    "priority" : 1,
-    "program" : "main.lua",
-    "task" : {
-        "function" : "on_process",
-        "interval" : 5000
-    }	
-}

@@ -1,5 +1,0 @@
-{
-    "name" : "PCS_AppRW",
-    "priority" : 1,
-    "program" : "main.lua"
-}
